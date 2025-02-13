@@ -36,7 +36,7 @@ app.get('/protected', (req, res) => {
         }
         else if(payload.role == "admin") {
             res.json({
-                message: "CTFslu{467575ff264bd9247088b1bb3234e61e}"
+                message: "Flag{467575ff264bd9247088b1bb3234e61e}"
             })
         }
         else {
